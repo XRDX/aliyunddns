@@ -73,5 +73,3 @@ if __name__ == "__main__":
         update_dns(rc3_rr, rc3_id, rc_value)
         write_to_config(rc_value)
         log(rc_value)
-    else:
-        log("-_-")
